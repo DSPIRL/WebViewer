@@ -26,7 +26,6 @@ struct ContentView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(width: nil, alignment: .top)
                     .padding([.leading])
-                    .ignoresSafeArea(edges: .top)
                     .autocorrectionDisabled()
                     .textInputAutocapitalization(.never)
                     
